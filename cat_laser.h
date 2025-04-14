@@ -12,7 +12,7 @@ class cat_laser {
     void laser(laser2);
     void x(xAngle);
     void y(yAngle);
-    void angle(xAngle, Angle);
+    void move(xAngle, Angle);
     
 };
 privet:
