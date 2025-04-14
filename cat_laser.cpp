@@ -22,7 +22,7 @@ void cat_laser::x(xAngle){
 void cat_laser::y(yAngle){
   yServo.write(yAngle);
 }
-void cat_laser::angle(xAngle, yAngle){
+void cat_laser::move(xAngle, yAngle){
   xServo.write(xAngle);
   yServo.write(yAngle);
 }
